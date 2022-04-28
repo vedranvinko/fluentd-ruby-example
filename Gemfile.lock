@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    fluent-logger (0.7.2)
+      msgpack (>= 1.0.0, < 2)
+    msgpack (1.5.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.8)
@@ -23,6 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  fluent-logger (~> 0.7.1)
   puma
   rack
   sinatra
